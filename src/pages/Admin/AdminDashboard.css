@@ -1,0 +1,26 @@
+.admin-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.admin-menu {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.admin-btn {
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  color: white;
+  background: linear-gradient(45deg, #ff7a7a, #ff4fa2);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.admin-btn:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #ff5f5f, #ff238c);
+}
